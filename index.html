@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+
+<script src="js/jquery.js"></script>
+
+<!-- scripts and styles -->
+
+
+<style type="text/css">
+.clearBoth {clear: both;}
+</style>
+<script src="js/d3.v3.min.js"></script>
+<script src="js/topojson.v1.min.js"></script>
+<script src="js/jquery_002.js"></script>
+<link rel="stylesheet" href="jquery.css" media="all" type="text/css">
+
+<script src="12052015_electriccars.js" ></script>
+
+<link rel="stylesheet" href="cars.css" media="all" type="text/css">
+
+
+
+<!-- body -->
+
+<div style="max-width: 645px; height: 4000px; margin: 0 auto;">
+
+<h1 class="svg1">Registered electric cars in Maine towns</h1>
+<p class="article-excerpt" itemprop="description">
+The circles in the map below represent municipalities where Maine's Nissan Leafs, Teslas, and BMW i-series electric vehicles are registered, according to registration data from the Secretary of State, as of late November 2015. Mouse over each circle to see what models are registered in each town.
+</p>
+<div class="byline">
+<div class="byline-author ">
+<div class="name"><span class="by">By </span>Christian MilNeil</div>
+<div class="contact"><a href="mailto:cmilneil@mainetoday.com">cmilneil@mainetoday.com</a> | <a href="http://twitter.com/vigorousnorth" target="_blank">@vigorousnorth</a></div>
+</div>
+</div>
+<div id="mapBox">
+
+	<div id="svgBox">
+		<div id="mapWrap">
+			<div class="zoombuttons"><div  class ="svgButton active"  id="zoomportland">Zoom to southern Maine</div>
+			<div  class ="svgButton" id="zoomreset">Show entire state</div></div>
+			<div id="mainemap" style="width: 100%">
+			</div>
+			
+			<div class="clearBoth"></div>
+		</div>
+		<div class="clearBoth"></div>
+	</div>
+	<div class="clearBoth"></div>
+	<div id="iaAnno">
+		<div><span class='bcBold'>SOURCE:</span> <span id='iaSource'><a href="https://www.ustravel.org/research/interactive-travel-analytics" target="_blank">U.S. Census Bureau</a></span></div>
+		<div><span class='bcBold'>INTERACTIVE:</span> <span id='iaSource'>Christian MilNeil | <a href="http://twitter.com/vigorousnorth" target="_blank">@vigorousnorth</a></span></div>
+	</div>
+</div>
+
+
+
+</div>
+
